@@ -1,12 +1,13 @@
 // histos.js
 //
 // checkageMGDC
-// méthode permettant d'afficher un message d'avertissement lors du décochage 
-// de la checkbox 'Gestion MGDC' lors de la création d'historique global
+// mï¿½thode permettant d'afficher un message d'avertissement lors du dï¿½cochage 
+// de la checkbox 'Gestion MGDC' lors de la crï¿½ation d'historique global
 // sur la page d'ajout de produit
 function checkageMGDC(formulaire, check, checkInitial) {
 	var checkActuelle = check.checked;
 	if(checkActuelle == false){
+//add comment	
 		if(confirm('Souhaitez-vous supprimer toutes les garanties Mgdc ?')){
 			formulaire.submit();
 			return true;		
