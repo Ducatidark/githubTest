@@ -7,6 +7,7 @@
 function checkageMGDC(formulaire, check, checkInitial) {
 	var checkActuelle = check.checked;
 	if(checkActuelle == false){
+		
 //add comment	
 		if(confirm('Souhaitez-vous supprimer toutes les garanties Mgdc ?')){
 			formulaire.submit();
