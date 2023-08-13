@@ -1,5 +1,5 @@
 // niveau-categorie.js
-
+// modif remote
 // var niveauInitial='#{creaCategorieBean.categorie.niveau}';		
 						
 function gestionAlert(formulaire, niveau, niveauInitial, disable) {
@@ -12,7 +12,7 @@ function gestionAlert(formulaire, niveau, niveauInitial, disable) {
 		return true;
 	} else {
 		if(niveauInitial != null && niveauInitial.length > 0) {
-			if(confirm('Désirez-vous vraiment modifier le niveau et donc supprimer les contrats liés du tableau? (confirmer ce choix par la mise à jour de la catégorie)')) {
+			if(confirm('DÃ©sirez-vous vraiment modifier le niveau et donc supprimer les contrats liÃ©s du tableau? (confirmer ce choix par la mise Ã  jour de la catÃ©gorie)')) {
 				// l'utilisateur veut modifier le niveau
 				// true pour soumettre le formulaire
 				formulaire.submit();
