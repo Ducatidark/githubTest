@@ -1,7 +1,7 @@
 // niveau-categorie.js
 
 // var niveauInitial='#{creaCategorieBean.categorie.niveau}';		
-						
+// modif locale						
 function gestionAlert(formulaire, niveau, niveauInitial, disable) {
 	var formId = formulaire.id;
 //	var niveau = document.getElementById(formId + ':listeNiveau');
@@ -12,7 +12,7 @@ function gestionAlert(formulaire, niveau, niveauInitial, disable) {
 		return true;
 	} else {
 		if(niveauInitial != null && niveauInitial.length > 0) {
-			if(confirm('Désirez-vous vraiment modifier le niveau et donc supprimer les contrats liés du tableau? (confirmer ce choix par la mise à jour de la catégorie)')) {
+			if(confirm('Dï¿½sirez-vous vraiment modifier le niveau et donc supprimer les contrats liï¿½s du tableau? (confirmer ce choix par la mise ï¿½ jour de la catï¿½gorie)')) {
 				// l'utilisateur veut modifier le niveau
 				// true pour soumettre le formulaire
 				formulaire.submit();
