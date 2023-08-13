@@ -1,6 +1,7 @@
 // histos.js
 //
 // checkageMGDC
+//modifié local
 // m�thode permettant d'afficher un message d'avertissement lors du d�cochage 
 // de la checkbox 'Gestion MGDC' lors de la cr�ation d'historique global
 // sur la page d'ajout de produit
