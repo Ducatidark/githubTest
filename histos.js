@@ -1,4 +1,5 @@
 // histos.js
+//modifié remote
 //
 // checkageMGDC
 // m�thode permettant d'afficher un message d'avertissement lors du d�cochage 
